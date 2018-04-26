@@ -1,7 +1,21 @@
+Dim sum As Integer
+Dim number As Integer
+
 'for loop for adding 1 to 100
 sum = 0
 number = 1
 For number = 1 To 100
     sum = sum + number
 Next
+'MessageBox.Show(sum) '5050
+
+
+'while loop for adding 1 to 100
+sum = 0
+number = 1
+
+While (number < 101)
+    sum = sum + number
+    number += 1
+End While
 'MessageBox.Show(sum) '5050
