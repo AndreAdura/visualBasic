@@ -1,0 +1,7 @@
+'for loop for adding 1 to 100
+sum = 0
+number = 1
+For number = 1 To 100
+    sum = sum + number
+Next
+'MessageBox.Show(sum) '5050
